@@ -24,7 +24,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
         {projects.slice(0, 3).map((project, index) => (
           <AnimatedSection key={project.id} delay={index * 0.1}>
-            <Link href={project.link} className="group cursor-pointer flex flex-col h-full">
+            <Link href={project.link} className="group cursor-pointer flex flex-col h-full" suppressHydrationWarning>
               {/* Image Container */}
               <div className="w-full aspect-[4/3] rounded-2xl bg-bg-surface-2 border border-border-subtle overflow-hidden mb-6 relative">
                 {project.image ? (
