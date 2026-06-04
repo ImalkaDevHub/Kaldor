@@ -1,0 +1,50 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Kaldor AI Platform",
+    category: "SAAS",
+    description: "A comprehensive enterprise platform built for real-time data visualization and infrastructure monitoring with millisecond latency.",
+    image: "/kaldor2.jpg",
+    link: "/kaldor-ai",
+  },
+  {
+    id: 2,
+    title: "Paply",
+    category: "AI INTEGRATION",
+    description: "Paply — A privacy first, AI powered Invoice & Quotation PDF generator that runs 100% in your browser. No server. No account. No data leaves your machine.",
+    image: "/Paply.jpg",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Anya - Melia",
+    category: "CUSTOM WEB",
+    description: "High-performance headless e-commerce solution with sub-second page loads and a custom 3D product configurator.",
+    image: "/anya.jpg",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Pixel Prompt",
+    category: "SAAS",
+    description: "Low-latency infrastructure for web3 applications, enabling seamless wallet integration and gasless transaction handling.",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800",
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "Vitality",
+    category: "SAAS",
+    description: "Real-time analytics dashboard with custom reporting and team collaboration features for data-driven decisions.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "Dream House",
+    category: "E-COMMERCE",
+    description: "Modern payment processing platform with multi-currency support and instant settlements across global markets.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800",
+    link: "#",
+  }
+];
