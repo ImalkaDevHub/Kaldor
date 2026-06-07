@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kaldor — Official Website
 
-## Getting Started
+> **Engineering the Next Generation of Web.**
 
-First, run the development server:
+The official marketing website for **Kaldor Pvt Ltd** — a boutique software engineering studio specializing in high-performance digital products, AI-powered workflows, and scalable web solutions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌐 Live Site
+
+[www.kaldor.dev](https://www.kaldor.dev)
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| [Next.js 14](https://nextjs.org/) | Framework (App Router) |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety |
+| [Tailwind CSS](https://tailwindcss.com/) | Styling |
+| [Syne](https://fonts.google.com/specimen/Syne) + [DM Sans](https://fonts.google.com/specimen/DM+Sans) | Typography |
+
+---
+
+## 📁 Project Structure
+
+```
+kaldor/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx          # Root layout, fonts, metadata
+│   │   ├── page.tsx            # Home page
+│   │   └── globals.css         # Global styles & CSS variables
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.tsx      # Fixed navbar with mobile menu
+│   │   │   └── Footer.tsx      # Footer with links
+│   │   │
+│   │   ├── sections/           # Homepage sections
+│   │   │   ├── Hero.tsx
+│   │   │   ├── TrustBar.tsx
+│   │   │   ├── Services.tsx
+│   │   │   ├── WhyUs.tsx
+│   │   │   ├── Portfolio.tsx
+│   │   │   ├── Process.tsx
+│   │   │   ├── Pricing.tsx
+│   │   │   ├── About.tsx
+│   │   │   ├── FAQ.tsx
+│   │   │   ├── CTA.tsx
+│   │   │   └── Contact.tsx
+│   │   │
+│   │   └── ui/
+│   │       └── AnimatedSection.tsx  # Scroll-triggered fade-up wrapper
+│   │
+└── tailwind.config.ts          # Design tokens & theme config
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- Node.js `18.x` or higher
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repository
+git clone https://github.com/kaldor-pvtltd/kaldor-website.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Navigate into the project
+cd kaldor-website
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Install dependencies
+npm install
 
-## Deploy on Vercel
+# Start the development server
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Build for Production
+
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## 📄 Pages & Sections
+
+| Section | Description |
+|---------|-------------|
+| **Hero** | Full-screen headline with animated entrance |
+| **Trust Bar** | Key stats — delivery time, PageSpeed, projects |
+| **Services** | 6 service cards — SaaS, E-Commerce, Cloud, Mobile, Web Apps, UI/UX |
+| **Why Us** | Comparison vs typical agencies + animated progress bars |
+| **Portfolio** | Selected project case studies |
+| **Process** | 6-step zigzag timeline |
+| **Pricing** | 3 transparent pricing plans in LKR |
+| **About** | Who we are + stats grid |
+| **FAQ** | Numbered accordion |
+| **CTA** | Call-to-action banner |
+| **Contact** | WhatsApp CTA + contact detail cards |
+
+---
+
+## 🎨 Design System
+
+- **Primary accent:** `#E5352B` (Red)
+- **Background:** `#0A0A0A` (Near black)
+- **Display font:** Syne (headings)
+- **Body font:** DM Sans (paragraphs)
+- **Border:** `rgba(255,255,255,0.07)`
+
+---
+
+## 📦 Deployment
+
+This project is deployed on **Vercel**.
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+Or connect the GitHub repo directly via the [Vercel Dashboard](https://vercel.com/new).
+
+---
+
+## 📞 Contact
+
+**Kaldor Pvt Ltd**
+- 🌐 Website: [www.kaldor.dev](https://www.kaldor.dev)
+- 📧 Email: hello@kaldor.dev
+- 💬 WhatsApp: [Chat with us](https://wa.me/94XXXXXXXXX)
+- 📍 Location: Sri Lanka — Remote-first, Global Team
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Kaldor Pvt Ltd**. All rights reserved.
+
+This codebase is proprietary and confidential. Unauthorized copying, distribution, or use of this code, via any medium, is strictly prohibited without prior written permission from Kaldor Pvt Ltd.
